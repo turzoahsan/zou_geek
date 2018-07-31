@@ -1,0 +1,72 @@
+section#menu_bar{
+	text-align: right;
+}
+
+
+section#menu_bar div.menu_btn a{
+	display: inline-block;
+	width:160px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	font-size: 23px;
+	color:#fff;
+	background:#3A72B8;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+
+	margin:10px;
+	cursor: pointer;
+
+}
+
+section#menu_bar div.menu_btn a.selected{
+	background:#ED2227;
+}
+
+@media (min-width: 1200px) {
+	section#menu_bar div.container-fluid{
+		padding-right:20px;
+		margin-top:20px;
+	}
+}
+/*#######################################*/
+
+@media (max-width: 991px) {
+	section#menu_bar div.container-fluid{
+		/*padding-right:20px;*/
+		margin-top:5px;
+	}
+	section#menu_bar div.menu_btn a{
+		
+		width:100px;
+		height: 40px;
+		line-height: 40px;		
+		font-size: 16px;
+		margin:5px;
+		
+	}
+
+}
+/*******************************************/
+
+@media (max-width: 767px) {
+	section#menu_bar div.container-fluid{
+		padding-right:5px;
+		margin-top:2px;
+	}
+	section#menu_bar div.menu_btn a{
+		
+		width:80px;
+		height: 30px;
+		line-height: 30px;		
+		font-size: 14px;
+		margin:5px;
+		
+	}
+
+}

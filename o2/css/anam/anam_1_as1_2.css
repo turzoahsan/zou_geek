@@ -1,0 +1,311 @@
+/********************************
+all edited by anam
+*********************************/
+
+
+h1{line-height:100%;margin:0px;padding:0px;}
+        .main{cursor:pointer; position:absolute;top:53%;background-color:#06F;border-radius:10px; left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+            .txt_as_m{padding:30px 35px 25px 35px;color:#fff;}
+            .txt_as_1{padding:10px 15px;color:#fff;cursor:pointer;}
+            .txt_as_m{position:absolute;background-color:#039;border-radius:50%;z-index:5;margin-left:-35px;}
+
+            .txt_as_1{
+                position:absolute;
+                /*display:none;*/
+                background-color:transparent;
+                color:#000;
+                border-radius:10px;
+                margin-left:-30px;
+            }
+
+            #t3{margin-left:-40px;}
+            /*.txt_as_hzntl{margin-top:18px;}*/
+            .txt_bot{margin-left:-54px;}
+            
+            .txt_as_m:hover{background:#2980b9;}
+            /*#t1{background:#d35400;}*/
+            /*#t1:hover{background:#e67e22;}*/
+            /*#t2{background:#27ae60;}
+            #t2:hover{background:#2ecc71;}
+            #t3{background:#16a085;}
+            #t3:hover{background:#1abc9c;}
+            #t4{background:#c0392b;}
+            #t4:hover{background:#e74c3c;}*/
+
+
+             .classnamel{
+               -webkit-animation: cssAnimationl 1s linear;
+               -webkit-animation-fill-mode:forwards;
+                
+                 -moz-animation: cssAnimationl 1s linear;
+                -moz-animation-fill-mode:forwards;
+                -moz-animation-iteration-count: 1;
+                 -o-animation: cssAnimationl 1s linear;
+                -o-animation-fill-mode:forwards;
+                -o-animation-iteration-count: 1;
+                 -ms-animation: cssAnimationl 1s linear;
+                -ms-animation-fill-mode:forwards;
+                -ms-animation-iteration-count: 1;
+                animation: cssAnimationl 1s linear;
+                animation-fill-mode:forwards;   
+            }
+
+             .classnamelRv{
+               -webkit-animation: cssAnimationlRv 1s linear;
+               -webkit-animation-fill-mode:forwards;
+                
+                 -moz-animation: cssAnimationlRv 1s linear;
+                -moz-animation-fill-mode:forwards;
+                -moz-animation-iteration-count: 1;
+                 -o-animation: cssAnimationlRv 1s linear;
+                -o-animation-fill-mode:forwards;
+                -o-animation-iteration-count: 1;
+                 -ms-animation: cssAnimationlRv 1s linear;
+                -ms-animation-fill-mode:forwards;
+                -ms-animation-iteration-count: 1;
+                 
+                
+                
+                animation: cssAnimationlRv 1s linear;
+                animation-fill-mode:forwards;
+                
+            }
+
+            .classnamer{
+                -webkit-animation: cssAnimationr 1s linear;
+                -webkit-animation-fill-mode:forwards;
+                
+                 -moz-animation: cssAnimationr s linear;
+                -moz-animation-fill-mode:forwards;
+                -moz-animation-iteration-count: 1;
+                 -o-animation: cssAnimationr 1s linear;
+                -o-animation-fill-mode:forwards;
+                -o-animation-iteration-count: 1;
+                 -ms-animation: cssAnimationr 1s linear;
+                -ms-animation-fill-mode:forwards;
+                -ms-animation-iteration-count: 1;
+                 
+                
+                
+                animation: cssAnimationr 1s linear;
+                animation-fill-mode:forwards;
+                
+            }
+            .classnamerRv{
+                -webkit-animation: cssAnimationrRv 1s linear;
+                -webkit-animation-fill-mode:forwards;
+                
+                 -moz-animation: cssAnimationrRv s linear;
+                -moz-animation-fill-mode:forwards;
+                -moz-animation-iteration-count: 1;
+                 -o-animation: cssAnimationrRv 1s linear;
+                -o-animation-fill-mode:forwards;
+                -o-animation-iteration-count: 1;
+                 -ms-animation: cssAnimationrRv 1s linear;
+                -ms-animation-fill-mode:forwards;
+                -ms-animation-iteration-count: 1;
+                 
+                
+                
+                animation: cssAnimationrRv 1s linear;
+                animation-fill-mode:forwards;
+                
+            }
+            .classnamet{
+                position: absolute;
+                left:45%;
+                display: inline-block;
+                
+                
+              -webkit-animation: cssAnimationt 1s linear;
+                -webkit-animation-fill-mode:forwards;
+                
+                 -moz-animation: cssAnimationt 1s linear;
+                -moz-animation-fill-mode:forwards;
+                -moz-animation-iteration-count: 1;
+                 -o-animation: cssAnimationt 1s linear;
+                -o-animation-fill-mode:forwards;
+                -o-animation-iteration-count: 1;
+                 -ms-animation: cssAnimationt 1s linear;
+                -ms-animation-fill-mode:forwards;
+                -ms-animation-iteration-count: 1;
+                 
+                
+                
+                animation: cssAnimationt 1s linear;
+                animation-fill-mode:forwards;
+            
+            }
+            .classnametRv{
+                position: absolute;
+                left:45%;
+                display: inline-block;
+                
+              -webkit-animation: cssAnimationtRv 1s linear;
+                -webkit-animation-fill-mode:forwards;
+                
+                 -moz-animation: cssAnimationtRv 1s linear;
+                -moz-animation-fill-mode:forwards;
+                -moz-animation-iteration-count: 1;
+                 -o-animation: cssAnimationtRv 1s linear;
+                -o-animation-fill-mode:forwards;
+                -o-animation-iteration-count: 1;
+                 -ms-animation: cssAnimationtRv 1s linear;
+                -ms-animation-fill-mode:forwards;
+                -ms-animation-iteration-count: 1;
+                 
+                
+                
+                animation: cssAnimationtRv 1s linear;
+                animation-fill-mode:forwards;
+            
+            }
+            .classnameb{
+                position: absolute;
+                left:45%;
+                display: inline-block;
+                
+                -webkit-animation: cssAnimationb 1s linear;
+                -webkit-animation-fill-mode:forwards;
+                
+                 -moz-animation: cssAnimationb 1s linear;
+                -moz-animation-fill-mode:forwards;
+                -moz-animation-iteration-count: 1;
+                 -o-animation: cssAnimationb 1s linear;
+                -o-animation-fill-mode:forwards;
+                -o-animation-iteration-count: 1;
+                 -ms-animation: cssAnimationb 1s linear;
+                -ms-animation-fill-mode:forwards;
+                -ms-animation-iteration-count: 1;
+                 
+                
+                
+                animation: cssAnimationb 1s linear;
+                animation-fill-mode:forwards;
+                
+              
+            }
+             .classnamebRv{
+                position: absolute;
+                left:45%;
+                display: inline-block;
+                
+                -webkit-animation: cssAnimationbRv 1s linear;
+                -webkit-animation-fill-mode:forwards;
+                
+                 -moz-animation: cssAnimationbRv 1s linear;
+                -moz-animation-fill-mode:forwards;
+                -moz-animation-iteration-count: 1;
+                 -o-animation: cssAnimationbRv 1s linear;
+                -o-animation-fill-mode:forwards;
+                -o-animation-iteration-count: 1;
+                 -ms-animation: cssAnimationbRv 1s linear;
+                -ms-animation-fill-mode:forwards;
+                -ms-animation-iteration-count: 1;
+                 
+                
+                
+                animation: cssAnimationbRv 1s linear;
+                animation-fill-mode:forwards;
+                
+              
+            }               
+
+    
+.cholo_ri{background:#AA1C17;}
+    
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .txt_as_m h1{font-size:25px;}
+    .txt_as_m{padding:30px 35px 30px 35px;color:#fff;margin-left:-35px;}
+    .txt_as_1 h1{font-size:16px;}
+    .txt_as_1{padding:10px 15px;color:#fff;cursor:pointer;margin-left:-30px;}
+    @keyframes cssAnimationt {
+         0% {margin-top: 0px;}
+         100% {margin-top: -60px;}
+    }
+    @-webkit-keyframes cssAnimationt {
+         0% {margin-top: 0px;}
+         100% {margin-top: -60px;}
+    }
+    @-moz-keyframes cssAnimationt {
+         0% {margin-top: 0px;}
+         100% {margin-top: -60px;}
+    }
+    @-o-keyframes cssAnimationt {
+         0% {margin-top: 0px;}
+         100% {margin-top: -60px;}
+    }
+    @-ms-keyframes cssAnimationt {
+         0% {margin-top: 0px;}
+         100% {margin-top: -60px;}
+    }
+    @keyframes cssAnimationtRv {
+         0% {margin-top: -60px;}
+         100% {margin-top: 0px;}
+    }
+    @-webkit-keyframes cssAnimationtRv {
+         0% {margin-top: -60px;}
+         100% {margin-top: 0px;}
+    }
+    @-moz-keyframes cssAnimationRv {
+         0% {margin-top: -60px;}
+         100% {margin-top: 0px;}
+    }
+    @-o-keyframes cssAnimationtRv {
+         0% {margin-top: -60px;}
+         100% {margin-top: 0px;}
+    }
+    @-ms-keyframes cssAnimationtRv {
+         0% {margin-top: -60px;}
+         100% {margin-top: 0px;}
+    }
+
+    @keyframes cssAnimationl {
+         0% {margin-left: 0px;}
+        100% {margin-left: -130px;}
+    }       
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes cssAnimationl {
+         0% {margin-left: 0px;}
+        100% {margin-left: -130px;}
+    }
+    @-moz-keyframes cssAnimationl {
+         0% {margin-left: 0px;}
+        100% {margin-left: -130px;}
+    }
+    @-o-keyframes cssAnimationl {
+         0% {margin-left: 0px;}
+        100% {margin-left: -130px;}
+    }
+    @-ms-keyframes cssAnimationl {
+         0% {margin-left: 0px;}
+        100% {margin-left: -130px;}
+    }
+    @keyframes cssAnimationlRv {
+         0% {margin-left: -130px;}
+        100% {margin-left: 0px;}
+    }       
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes cssAnimationlRv {
+         0% {margin-left: -130px;}
+        100% {margin-left: 0px;}
+    }
+    @-moz-keyframes cssAnimationRvl {
+         0% {margin-left: -130px;}
+        100% {margin-left: 0px;}
+    }
+    @-o-keyframes cssAnimationlRv {
+         0% {margin-left: -130px;}
+        100% {margin-left: 0px;}
+    }
+    @-ms-keyframes cssAnimationlRv {
+         0% {margin-left: -130px;}
+        100% {margin-left: 0px;}
+    }               
+    #t1{margin-left:-20px;}
+    #t3{margin-left:-25px;}
+
+}

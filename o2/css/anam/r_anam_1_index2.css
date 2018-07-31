@@ -1,0 +1,134 @@
+/*************************** <=1199px ***********************************/
+@media (max-width: 1199px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=991px ***********************************/
+@media (max-width: 991px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=800px ***********************************/
+@media (max-width: 800px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=767px ***********************************/
+@media (max-width: 767px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=500px ***********************************/
+@media (max-width: 500px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=767px ***********************************/
+@media (max-width: 767px) {
+	.r2{
+		padding-top:5px;
+		min-height: auto;
+	}
+	.class_ {
+	    font-size: 21px;
+	    line-height: 28px;
+	}
+	div.r2 div.hh div.in2C h1 a{
+		color:black;
+		background:#3A72B8;
+		padding: 0;
+		/*width:80px;*/
+		/*height: 50px;*/
+		line-height: 50px;
+		/*margin-left:-40px;*/
+		border-radius: 10px;
+		color:#fff;
+		-webkit-box-shadow: 0px 3px 28px -9px rgba(0, 0, 0, 0.47);
+	    -moz-box-shadow: 0px 3px 28px -9px rgba(0, 0, 0, 0.47);
+	    box-shadow: 0px 3px 28px -9px rgba(0, 0, 0, 0.47);
+	}
+	div.r2 div.hh div.in2C h1 a:hover{
+		background-color:#3498db;
+		color:black;
+	}
+	/*.c a:hover{background-color:#3498db;}
+	.c2 a:hover{background-color:#27ae60;}
+	.c3 a:hover{background-color:#d35400;}*/
+}
+/**********************************************************************/
+/*************************** <=500px ***********************************/
+@media (max-width: 500px) {
+	.r2{
+		padding-top:5px;
+		min-height: auto;
+	}
+	.class_ {
+	    font-size: 21px;
+	    line-height: 28px;
+	}
+	div.r2 div.hh div.in2C h1 a{
+		color:black;
+		background:#3A72B8;
+		padding: 0;
+		/*width:80px;*/
+		/*height: 50px;*/
+		line-height: 50px;
+		/*margin-left:-40px;*/
+		border-radius: 10px;
+		color:#fff;
+		-webkit-box-shadow: 0px 3px 28px -9px rgba(0, 0, 0, 0.47);
+	    -moz-box-shadow: 0px 3px 28px -9px rgba(0, 0, 0, 0.47);
+	    box-shadow: 0px 3px 28px -9px rgba(0, 0, 0, 0.47);
+	}
+	div.r2 div.hh div.in2C h1 a:hover{
+		background-color:#3498db;
+		color:black;
+	}
+}
+/**********************************************************************/
+
+/*************************** <=480px ***********************************/
+@media (max-width: 480px) {
+	div.r2 div.hh div.in2C h1 a:hover{
+		background-color:#3498db;
+		color:black;
+	}
+	.r2{
+		padding-top:5px;
+		min-height: auto;
+	}
+	.class_ {
+	    font-size: 21px;
+	    line-height: 28px;
+	}
+	div.r2 div.hh div.in2C h1 a{
+		color:black;
+		/*border:solid 1px red;*/
+		background:#3A72B8;
+		padding: 0;
+		width:80px;
+		height: 50px;
+		line-height: 50px;
+		/*margin-left:-40px;*/
+		border-radius: 10px;
+		color:#fff;
+		-webkit-box-shadow: 3px 27px 34px -9px rgba(0,0,0,0.47);
+	    -moz-box-shadow: 3px 27px 34px -9px rgba(0,0,0,0.47);
+	    box-shadow: 3px 27px 34px -9px rgba(0,0,0,0.47);
+	}
+}
+/**********************************************************************/
+
+/*************************** <=320px ***********************************/
+@media (max-width: 320px) {
+	
+}
+/**********************************************************************/
+
+
+

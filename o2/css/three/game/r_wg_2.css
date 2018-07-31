@@ -1,0 +1,236 @@
+@media (min-width: 1200px) {
+	section#cont_body div#test img{
+	    width:100%;
+	}
+	.reload_sb1{
+	    height: auto;
+	    left: 0;
+	    margin: auto;
+	    position: absolute;
+	    right: 0;
+	    width: 50px;
+    }
+}
+/********************************************************************/
+
+@media (max-width: 1199px) {
+	section#cont_body div#test img{
+	    width:100%;
+	}
+	.reload_sb1{
+	    height: auto;
+	    left: 0;
+	    margin: auto;
+	    position: absolute;
+	    right: 0;
+	    width: 50px;
+    }
+}
+/********************************************************************/
+
+@media (max-width: 991px) {
+	section#cont_body div#test img{
+	    width:100%;
+	}
+	section#instruction_bar {
+	    padding: 5px 0px 0px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 26px;
+		margin-bottom:5px;
+	}
+	section#instruction_bar h3{
+		font-size: 18px;
+	}
+	/****************************/
+	section#cont_body{
+		margin-top:-15px;
+	}
+	section#cont_body div.top_img img{
+		width:60px;
+	}
+	section#cont_body div.bottom_img img{
+		width:60px;
+	}
+	div.right_side  div.top_img{	    
+	    margin:0px 10px;	    
+	}
+
+	div.right_side  div.bottom_img{	   
+	    margin:0px 10px;	    
+	}
+
+	section#cont_body div.right_first_row{
+	    margin-bottom:20px;
+	}
+}
+/*******************************************************************/
+
+@media (max-width: 767px) {
+	section#cont_body div#test img{
+	    width:150px;
+	}
+	section#instruction_bar {
+	    padding: 5px 0px 0px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 24px;
+		margin-bottom:5px;
+	}
+	section#instruction_bar h3{
+		font-size: 16px;
+	}
+	/****************************/
+	section#cont_body{
+		margin-top:0px;
+	}
+	section#cont_body div.top_img img{
+		width:50px;
+	}
+	section#cont_body div.bottom_img img{
+		width:50px;
+	}
+	div.right_side  div.top_img{	    
+	    margin:0px 10px;	    
+	}
+
+	div.right_side  div.bottom_img{	   
+	    margin:0px 10px;	    
+	}
+
+	section#cont_body div.right_first_row{
+	    margin-bottom:20px;
+	}
+
+
+		/******************************************* responsive code **************************************************/
+	div#light,
+	div#light2{
+	    height:280px;
+	}
+	.ans_img {
+	    width: 70px;
+	    height: auto;
+	    display: block;
+	    margin: 0px auto;
+	}
+	#divider {
+	    margin: 10px 0px;
+	    font-family: solaiman;
+	    font-size: 20px;
+	    color: #fff;
+	}
+	.reload_sb1 {
+	    height: auto;
+	    left: 0;
+	    margin: auto;
+	    position: absolute;
+	    right: 0;
+	    width: 31px;
+	}
+	/*************************************************************************************************************/
+
+
+
+
+
+
+
+
+}
+/*******************************************************************/
+
+@media (max-width: 480px) {
+	section#cont_body div#test img{
+	    width:125px;
+	}
+	section#instruction_bar {
+	    padding: 5px 0px 0px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 24px;
+		margin-bottom:5px;
+	}
+	section#instruction_bar h3{
+		font-size: 16px;
+	}
+	/****************************/
+	section#cont_body{
+		margin-top:0px;
+	}
+	section#cont_body div.top_img img{
+		width:40px;
+	}
+	section#cont_body div.bottom_img img{
+		width:40px;
+	}
+	div.right_side  div.top_img{	    
+	    margin:0px 10px;	    
+	}
+
+	div.right_side  div.bottom_img{	   
+	    margin:0px 8px;	    
+	}
+
+	section#cont_body div.right_first_row{
+	    margin-bottom:15px;
+	}
+}
+/*******************************************************************/
+
+@media (max-width: 320px) {
+	/*new addeed*/
+	
+	/************/
+	section#cont_body div#test img{
+	    width:80px;
+	}
+	section#instruction_bar {
+	    padding: 5px 0px 0px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 24px;
+		margin-bottom:5px;
+	}
+	section#instruction_bar h3{
+		font-size: 16px;
+	}
+	/****************************/
+	section#cont_body{
+		margin-top:0px;
+	}
+	section#cont_body div.top_img img{
+		width:30px;
+	}
+	section#cont_body div.bottom_img img{
+		width:30px;
+	}
+	div.right_side  div.top_img{	    
+	    margin:0px 0px;	    
+	}
+
+	div.right_side  div.bottom_img{	   
+	    margin:0px 0px;	    
+	}
+
+	section#cont_body div.right_first_row{
+	    margin-bottom:15px;
+	}
+}
+/*******************************************************************/

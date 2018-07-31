@@ -1,0 +1,37 @@
+@media (max-width: 991px) {
+	div.drag_wrp h1{
+		margin:0px;
+		padding:0px;
+		font-size: 28px;
+	}
+	div.drag_wrp h2{
+		margin:0px;
+		padding:0px;
+		font-size: 24px;
+		margin-top:-10px;
+	}
+	div.drag_wrp img.cont_img{
+		width:90px;
+	}
+	
+}
+/************************************************/
+
+@media (max-width: 767px) {
+	div.drag_wrp h1{
+		margin:0px;
+		padding:0px;
+		font-size: 20px;
+	}
+	div.drag_wrp h2{
+		margin:0px;
+		padding:0px;
+		font-size: 16px;
+		margin-top:-10px;
+	}
+
+	div.drag_wrp img.cont_img{
+		width:60px;
+	}
+	
+}

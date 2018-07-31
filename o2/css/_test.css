@@ -1,0 +1,55 @@
+.my_test{
+	width:50px;
+	height: 50px;
+	background:red;
+	display: inline-block;
+	-webkit-animation: aaa 0.5s infinite;
+	-o-animation: aaa 0.5s infinite;
+	animation: aaa 0.5s infinite;
+
+	position: relative;
+}
+
+
+@media screen and (min-width: 801px) {
+	@-webkit-keyframes aaa {
+		from { left:0px; }
+		to { left:50px; }
+	}
+	@-o-keyframes aaa {
+		from { left:0px; }
+		to { left:50px; }
+	}
+	@-moz-keyframes aaa {
+		from { left:0px; }
+		to { left:50px; }
+	}
+	@keyframes aaa {
+		from { left:0px; }
+		to { left:50px; }
+	}
+}
+
+@media screen and (max-width: 800px) {
+	div.my_test{
+		position: absolute;
+	}
+	@-webkit-keyframes aaa {
+		from { top:0px; }
+		to { top:50px; }
+	}
+	@-o-keyframes aaa {
+		from { top:0px; }
+		to { top:50px; }
+	}
+	@-moz-keyframes aaa {
+		from { top:0px; }
+		to { top:50px; }
+	}
+	@keyframes aaa {
+		from { top:0px; }
+		to { top:50px; }
+	}
+}
+
+

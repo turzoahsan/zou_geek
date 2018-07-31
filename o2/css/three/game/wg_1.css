@@ -1,0 +1,184 @@
+/**{
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}*/
+
+header{
+    height: 44px;
+    background:#ed2227;
+}
+header .back{
+    background:#669d41;
+    width:49px;
+    height: 44px;
+    display: inline-block;  
+}
+header  img{
+    /*margin-top:-2px;*/
+    height: 44px;
+}
+
+header .right, .text, .home, .guide{
+    display: inline-block;
+}
+header .right{
+    float:right;
+}
+header .home, .guide{
+    background:#669d41;
+    height: 44px;
+    width: 49px;
+    display: inline-block;
+}
+header .home{
+    margin-right:-3px;
+}
+header .text{
+    padding-left:15px;
+    color:#fff;
+    font-size: 22px;
+}
+header .text a{
+    color:#fff;
+}
+/*media query*/
+
+@media (max-width: 767px) {
+    header .text{
+        padding-left:0px;
+    }
+    header a{
+        font-size: 14px;
+    }
+}
+
+
+section#instruction_bar{
+    padding:20px 0px 10px;
+}
+/*****************************************************************/
+
+section#game_cont{
+    padding-top:20px;
+
+}
+section#game_cont div.first_row{
+    margin-bottom:20px;
+}
+section#game_cont div.first_row div.g_elem{
+    display: inline-block;
+    margin-right:50px;
+}
+section#game_cont div.first_row div.g_elem:last-child{
+    margin-right:0px;
+}
+/**************/
+section#game_cont div.second_row{
+    margin-bottom:20px;
+}
+section#game_cont div.second_row div.g_elem{
+    display: inline-block;
+    margin-right:50px;
+}
+section#game_cont div.second_row div.g_elem:last-child{
+    margin-right:0px;
+}
+/**************/
+section#game_cont div.third_row{
+    margin-bottom:20px;
+}
+section#game_cont div.third_row div.g_elem{
+    display: inline-block;
+    margin-right:50px;
+}
+section#game_cont div.third_row div.g_elem:last-child{
+    margin-right:0px;
+}
+/**************/
+section#game_cont div.fourth_row{
+    /*margin-bottom:20px;*/
+}
+section#game_cont div.fourth_row div.g_elem{
+    display: inline-block;
+    margin-right:50px;
+}
+section#game_cont div.fourth_row div.g_elem:last-child{
+    margin-right:0px;
+}
+/**************/
+
+section#game_cont div.my_drag_cont{
+    width:60px;
+    height:90px;
+    margin:0px auto;
+}
+
+section#game_cont div.right_cont div.g_elem_right{
+    margin-bottom:20px;
+}
+section#game_cont div.right_cont div.g_elem_right:last-child{
+    margin-bottom:0px;
+}
+
+
+section#game_cont div.dyn_cont{
+    position: absolute;
+    /*left:50%;*/
+}
+section#game_cont div.rand_pic{
+    /*position: absolute;
+    left:0;
+    top:115px;*/
+}
+
+section#game_cont div.dyn_cont::after{
+
+    /*content:"";
+    clear:both;
+    display: block;
+    width:50px;
+    height: 4px;
+    background:red;
+    margin:20px 0px;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** answer right or wrong ***********************/
+#divider{
+    margin: 20px 0px;
+    font-family: solaiman;
+    font-size: 36px;
+    color:#fff;
+}
+#test2 > div > div{
+    text-align: center
+}
+/*.reload_sb1{
+    height: auto;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 50px;
+}*/
+
+div#light,
+div#light2{
+    height:500px;
+}
+/****************************************************************/
+

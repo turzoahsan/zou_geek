@@ -1,0 +1,72 @@
+/**{
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}*/
+
+header{
+    height: 44px;
+    background:#ed2227;
+}
+header .back{
+    background:#669d41;
+    width:49px;
+    height: 44px;
+    display: inline-block;  
+}
+header  img{
+    /*margin-top:-2px;*/
+    height: 44px;
+}
+
+header .right, .text, .home, .guide{
+    display: inline-block;
+}
+header .right{
+    float:right;
+}
+header .home, .guide{
+    background:#669d41;
+    height: 44px;
+    width: 49px;
+    display: inline-block;
+}
+header .home{
+    margin-right:-3px;
+}
+header .text{
+    padding-left:15px;
+    color:#fff;
+    font-size: 22px;
+}
+header .text a{
+    color:#fff;
+}
+/*media query*/
+
+@media (max-width: 600px) {
+    header .text{
+        padding-left:0px;
+    }
+    header a{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+section#music_btn img{
+    /*width:100px;*/
+}
+
+
+section#navigation_sec{
+    margin-top:70px;
+}
+
+section#show_sec span.jword{
+    font-size: 45px;
+}
+

@@ -1,0 +1,199 @@
+/********************************
+all edited by anam
+*********************************/
+
+
+header{
+	height: 44px;
+	background:#ed2227;
+}
+header .back{
+	background:#669d41;
+	width:49px;
+	height: 44px;
+	display: inline-block;	
+}
+header  img{
+	/*margin-top:-2px;*/
+	height: 44px;
+}
+
+header .right, .text, .home, .guide{
+	display: inline-block;
+}
+header .right{
+	float:right;
+}
+header .home, .guide{
+	background:#669d41;
+	height: 44px;
+	width: 49px;
+	display: inline-block;
+}
+header .home{
+	margin-right:-3px;
+}
+header .text{
+	padding-left:15px;
+	color:#fff;
+	font-size: 22px;
+}
+header .text a{
+	color:#fff;
+}
+
+
+section#instruction_bar{
+    padding:35px 0px 0px;
+}
+section#instruction_bar h3{
+    margin-top:-5px;
+}
+
+/**************************************************************/
+section#cont_body div#test img{
+    padding:5px;
+    border:solid 1px #d8d8d8;
+}
+
+section#cont_body div#test img{
+    width:100%;
+}
+
+
+/*right side*/
+
+div.right_side  div.top_img{
+    display: inline-block;
+    margin:0px 15px;
+    /*float:left;*/
+}
+
+div.right_side  div.bottom_img{
+    display: inline-block;
+    margin:0px 15px;
+    /*float:left;*/
+}
+
+section#cont_body div.right_first_row{
+    margin-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************************************/
+
+#divider{
+    margin: 20px 0px;
+    font-family: solaiman;
+    font-size: 36px;
+    color:#fff;
+}
+.vertical_space{
+    margin:0px 10px;
+}
+
+.slot{
+    /*width: 131px;*/
+}
+.ui-draggable{
+    /*width:131px;*/
+}
+.red_content {
+        display: none;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        width: 50%;
+        /*height: 60%;*/
+        /*margin:0px auto;*/
+        padding: 16px;
+        /*border: 16px solid orange;*/
+        background-color: #d12127;
+        z-index:1002;
+        overflow: auto;
+        max-width:670px;
+        padding:35px 0px;
+    }
+
+@media (max-width: 1199px) {
+    .sbd{
+        width:100px ;
+        height: 100px ;
+    }
+}
+
+@media (max-width: 900px) {
+    .sbd{
+        width:80px ;
+        height: 80px ;
+    }
+}
+@media (max-width: 650px) {
+    section#instruction_bar h3{
+        margin-top: 8px;
+    }
+    header .text{
+        padding-left:0px;
+        
+    }
+
+    header a{
+        font-size: 14px;
+    }
+    .sbd{
+        width:70px ;
+        height: 70px ;
+    }
+    div.drag_wrp_out img.sbd{
+        width:70px ;
+        height: 70px ;
+    }
+    .drag_wrp_out{margin-top:10px;}
+    section#instruction_bar{
+        padding:5px 0px 0px;
+    }
+    section#instruction_bar h3{
+        font-size: 18px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    section#instruction_bar h3{
+        margin-top: 8px;
+    }
+    header .text{
+        padding-left:0px;
+        
+    }
+    header a{
+        font-size: 14px;
+    }
+    .sbd{
+        width:50px ;
+        height: 50px ;
+    }
+    div.drag_wrp_out img.sbd{
+        width:50px ;
+        height: 50px ;
+    }
+    .drag_wrp_out{margin-top:10px;}
+    section#instruction_bar{
+        padding:5px 0px 0px;
+    }
+    section#instruction_bar h3{
+        font-size: 18px;
+    }
+}

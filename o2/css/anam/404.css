@@ -1,0 +1,14 @@
+section#error{
+	padding:50px 0px;
+}
+section#error a{
+	font-size: 100px;
+	color:red;
+}
+
+
+section#error p{
+	font-size: 50px;
+	text-transform: capitalize;
+	margin:50px 0px;
+}

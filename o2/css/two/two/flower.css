@@ -1,0 +1,27 @@
+section#flower{
+
+}
+
+
+section#flower div.container-fluid{
+	text-align: center;
+}
+
+
+/*********************************************/
+@media (min-width: 1200px) {
+	section#flower{
+		padding-top:80px;
+	}
+
+}
+/*********************************************/
+
+@media (max-width: 767px) {
+	section#flower{
+		padding-top:20px;
+	}
+	section#flower a img{
+		width:40%;
+	}
+}

@@ -1,0 +1,27 @@
+section#birds{
+
+}
+
+
+section#birds div.container-fluid{
+	text-align: center;
+}
+
+
+/*********************************************/
+@media (min-width: 1200px) {
+	section#birds{
+		padding-top:80px;
+	}
+
+}
+/*********************************************/
+
+@media (max-width: 767px) {
+	section#birds{
+		padding-top:20px;
+	}
+	section#birds a img{
+		width:50%;
+	}
+}

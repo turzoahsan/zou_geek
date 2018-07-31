@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+	div.drag_wrp h1{
+		margin:0px;
+		padding:0px;
+		font-size: 28px;
+	}
+	div.test img.cont_img{
+		width:90px;
+	}
+	div.test img.im{
+		width:30px;
+	}
+	div.test{
+		margin-top: -10px;
+		
+	}
+	div.test:first-child{
+		
+	}
+}
+/************************************************/
+
+@media (max-width: 767px) {
+	div.drag_wrp h1{
+		margin:0px;
+		padding:0px;
+		font-size: 20px;
+	}
+	div.test img.cont_img{
+		width:60px;
+	}
+	div.test img.im{
+		width:20px;
+		margin-top:6px;
+		margin-right:2px;
+	}
+	div.test{
+		margin-top: -10px;
+		
+	}
+	div.test:first-child{
+		
+	}
+}

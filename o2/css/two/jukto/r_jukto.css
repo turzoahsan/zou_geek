@@ -1,0 +1,64 @@
+@media (min-width: 1200px) {
+	
+}
+/*############################################################*/
+@media (max-width: 991px) {
+
+	.sb4{
+	    padding-top:10px;
+	}
+	section#music_btn img{
+		width:80px;
+	}
+	.sb3{
+	    padding-top:5px;
+	    padding-bottom:5px;
+	}
+	.jb1{
+		width:50px;
+	    margin: 0px 5px ;    
+	}
+	.jb2{
+		width:50px;
+	    margin: 0px 5px ;   
+	}
+	.jb3{
+		width:50px;
+	    margin: 0px 5px ;   
+	}
+	.jdirection {
+	    width: 90px;
+	    margin: 0 20px;
+	}
+	
+}
+/*##############################################################*/
+@media (max-width: 767px) {
+
+	.sb4{
+	    padding-top:10px;
+	}
+	section#music_btn img{
+		width:60px;
+	}
+	.sb3{
+	    padding-top:5px;
+	    padding-bottom:5px;
+	}
+	.jdirection {
+	    width: 80px;
+	    margin: 0 20px;
+	}
+}
+/*#############################################################*/
+
+@media (max-width: 380px) {
+
+	.jblow {
+	    margin-left: 0px;
+	    margin-bottom: 15px;
+	    display: none;
+	    vertical-align: top;
+	   
+	}
+}

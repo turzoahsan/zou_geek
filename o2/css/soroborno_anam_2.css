@@ -1,0 +1,157 @@
+/********************************
+all edited by anam
+*********************************/
+
+
+header{
+	height: 44px;
+	background:#ed2227;
+}
+header .back{
+	background:#669d41;
+	width:49px;
+	height: 44px;
+	display: inline-block;	
+}
+header  img{
+	/*margin-top:-2px;*/
+	height: 44px;
+}
+
+header .right, .text, .home, .guide{
+	display: inline-block;
+}
+header .right{
+	float:right;
+}
+header .home, .guide{
+	background:#669d41;
+	height: 44px;
+	width: 49px;
+	display: inline-block;
+}
+header .home{
+	margin-right:-3px;
+}
+header .text{
+	padding-left:15px;
+	color:#fff;
+	font-size: 22px;
+}
+header .text a{
+	color:#fff;
+}
+
+
+
+section.button_bar div.container-fluid{
+    text-align: right;
+    padding-top:20px;
+    padding-right:95px;
+}
+section.button_bar div.container-fluid a{
+    width: 138px;
+    height: 56px;
+    margin:0px 8px;
+    color:#fff;
+    border-radius: 5px;
+    line-height: 56px;
+    display: inline-block;
+    text-align: center;
+    background-color:#3A72B8;
+    font-size: 23px;
+}
+section.button_bar div.container-fluid a.button_selected{
+    background-color:#AA1C17;
+}
+.sb3_anam{
+    padding-top:100px;
+}
+
+section.soroborno div.img-wrapper{
+	display: inline-block;
+	margin-bottom:15px;
+}
+section.soroborno div.img-wrapper img{
+	/*display: inline-block;*/
+}
+
+@media(max-width: 900px){
+	section.soroborno div.img-wrapper img{
+		width:70px;
+		height:70px;
+		margin:0px 10px;
+	}
+}
+@media (max-width: 650px) {
+	header .text{
+		padding-left:0px;
+	}
+	header a{
+		font-size: 14px;
+	}
+	section.button_bar div.container-fluid{
+	    text-align: center;
+	    padding-top:20px;
+	    padding-right:0px;
+	}
+
+	section.button_bar div.container-fluid a{
+	    width: 138px;
+	    height: 56px;
+	    line-height: 56px;	    
+	}
+	section.soroborno div.img-wrapper img{
+		width:50px;
+		height:50px;
+		margin:0px 7px;
+	}
+	.sb3_anam{
+	    padding-top:15px;
+	}
+
+}
+
+
+@media (max-width: 600px) {
+	header .text{
+		padding-left:0px;
+	}
+	header a{
+		font-size: 14px;
+	}
+	section.button_bar div.container-fluid{
+	    text-align: center;
+	    padding-top:20px;
+	    padding-right:0px;
+	}
+
+	section.button_bar div.container-fluid a{
+	    width: 138px;
+	    height: 56px;
+	    line-height: 56px;	    
+	}
+	section.soroborno div.img-wrapper img{
+		width:50px;
+		height:50px;
+		margin:0px 7px;
+	}
+	.sb3_anam{
+	    padding-top:15px;
+	}
+
+}
+
+@media (max-width: 400px) {
+	section.button_bar div.container-fluid a{
+	    width: 80px;
+	    height: 35px;
+	    line-height: 35px;
+	    font-size: 20px;
+	}
+	section.soroborno div.img-wrapper img{
+		width:40px;
+		height:40px;
+		margin:0px 1px;
+	}
+}

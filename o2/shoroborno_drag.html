@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>অক্ষর-১ | স্বরবর্ণ</title>
+
+    <!-- Bootstrap -->
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/plab1.css" rel="stylesheet">
+    <link href="css/drag_game_soroborno_anam_2.css" rel="stylesheet">
+
+    
+    
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/anam/dnd.js"></script>
+   
+
+  </head>
+<body>
+
+<!--********************************** header *********************************************-->
+  <header>
+        <div class="back">
+            <a href="o2.html">
+                <img src="img/back.png" alt="">
+            </a>
+        </div>
+        <div class="text">
+            <!-- <a href="a_home2.html">প্রথম শ্রেণি</a><i> > </i>
+            <a href="a_home3.html">বর্ণমালা</a><i> > </i>
+            <a href="a_soroborno.html">স্বরবর্ণ</a><i> > </i>
+            <a href="#">চলো খেলি</a> -->
+        </div>
+        <div class="right">
+            <!-- <div class="home"> -->
+               <div class="home">
+                    <a href="../index.html">
+                        <img src="img/home.png" alt="">
+                    </a>
+               </div>
+                <!-- <div class="guide">
+                    <a href="guide.html">
+                        <img src="img/guide.png" alt="">
+                    </a>
+                </div> -->
+            <!-- </div> -->
+        </div>
+    </header>
+    <!--*************************** end of the header *******************************************-->
+<section id="instruction_bar">
+  <div class="container-fluid text-center">
+    <h3 class="btm_d_mb">ডানদিকের ঘরের বর্ণগুলোকে , বামদিকের খালি ঘরে সঠিক যায়গায় বসাতে হবে </h3>
+  </div>
+</section>    
+    
+
+	<div class="container drag_wrp_out" style="">
+    	<div class="row ">
+			<div class="col-lg-1 col-md-1 col-sm-1">
+            </div>	
+    			<div class=" col-xs-12 col-lg-10 col-md-10 col-sm-10 ">
+                <h3 class="top_d_mb">ডানদিকের ঘরের বর্ণগুলোকে , বামদিকের খালি ঘরে সঠিক যায়গায় বসাতে হবে </h3>
+                	<div class="container drag_wrp">
+                    	<div class="row">
+                        	<div class=" col-xs-8 col-lg-8 col-md-8 col-sm-8" id="test">
+                             <script>
+                      				 	var numbers = [0,1,2,3,4,5,6,7,8,9,10];
+                        				numbers.sort( function() { return Math.random() - .5 } );
+                      					var numbers2=numbers;
+                      					var partA = numbers.slice(0,5);
+                      				 	var partB= numbers.slice(5,11);
+                      					var tempB=partB;
+                      					//alert("main :"+numbers[0]+" "+numbers[1]+" "+numbers[2]+" "+numbers[3]+" "+numbers[4]+" "+numbers[5]+" "+numbers[6]+" "+numbers[7]+" "+numbers[8]+" "+numbers[9]+" "+numbers[10]+' '+numbers[11])
+                      					//alert('a :'+partA[0]+" "+partA[1]+" "+partA[2]+" "+partA[3]+" "+partA[4]+" "+partA[5]+" "+partA[6]+" "+partA[7]+" ");
+                      					//alert('b :'+partB[0]+" "+partB[1]+" "+partB[2]+" "+partB[3]+" ");
+                      					var container = document.getElementById("test");
+                      					for(i=0;i<11;i++)
+                      					{
+                      						var zap=0;
+                      						//alert('i is '+i)
+                      							for(j=0;j<6;j++)
+                      							{
+                      								//alert('j is '+j)
+                      								if(i==tempB[j])
+                      								{
+                      									var p='<div '+' '+' '+ 'data="'+i+'"'+' class="slot s div_sbd"'  +'>'+ '<img '+ 'class="img-responsive sbd"'+'src="images/sbd_bg.png"'+'/>'+'</div>'
+                      									//alert(p);
+                      									container.innerHTML += p;
+                      									//delete tempB[i];
+                      									zap=1;
+                      									break;
+                      											
+                      								}
+                      								else
+                      								{
+                      									
+                      								}
+                      								
+                      							}
+                      							
+                      							if(zap==0)
+                      							{
+                      								var q='<div '+' '+'id="s'+i+'"'+' '+ 'class="slot div_sbd"'+    '>'+'<img '+ 'class="img-responsive sbd"'+'src="images/sbd'+(i+1)+'.png"'+'/>'+ '</div>'
+                      									//alert(q);
+                      									container.innerHTML += q;
+                      							}
+                      					}
+
+                                $('.side').draggable();
+				                      </script>                            	
+                            </div>
+                            
+                            <div class=" col-xs-4 col-lg-4 col-md-4 col-sm-4" id="test2">
+                            	<script>
+                								 var container = document.getElementById("test2");
+                									for(i=0;i<6;i++)
+                									{
+                										var p='<div '+' '+ 'id="c'+(tempB[i]+1)+'"'+' '+'class="card sbd"'+' '+ 'data="'+(tempB[i])+'"'+ 
+                										  '>'+'<img '+ 'class="img-responsive"'+'src="images/sbd'+(tempB[i]+1)+'.png"'+'/>'+ '</div>'
+                										container.innerHTML += p;
+                										
+                									}
+						                  </script>
+                            </div>
+                        </div>
+    				    </div>	
+            </div>	
+            <div class=" hidden-xs col-lg-1 col-md-1 col-sm-1">
+            </div>       
+        </div>
+<!-- 	<div class="row text-center">
+		<h3 class="btm_d_mb">ডানদিকের ঘরের বর্ণগুলোকে , বামদিকের খালি ঘরে সঠিক যায়গায় বসাও </h3>
+	</div> -->
+	</div>
+ 
+    <div id="light" class="red_content">
+        <a style="color:#009933;" href = "" onclick = "document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'">
+          <img alt=" " class="ans_img" src="images/wrong_ans_new.png" class="ans_img /">
+        </a><br>
+        <div class="text-center" id="divider">ভুল হয়েছে</div>
+
+      <div class="text-center" >
+          <a class="vertical_space" style="color:#009933;" href = "" onclick = "document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'"<a href="">
+            <img class="reload_sb2" alt=" " src="images/relaod_sb2_new.png" />
+          </a>
+          <!-- <a href="soroborno.html" class="vertical_space">
+            <img class="next_sb2" alt=" " src="images/nexrt_new.png" />
+          </a> -->
+      </div>
+    </div>
+
+
+    <div id="light2" class="white_content">
+      <a style="color:#009933;" href = "" onclick = "document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'">
+        <img alt=" " class="ans_img" src="images/right_ans_new.png" class="ans_img"/>
+      </a><br>
+
+      <div class="text-center" id="divider">সঠিক হয়েছে</div>
+
+        <div class="text-center">
+            <a class="vertical_space" style="color:#009933;" href = "" onclick = "document.getElementById('light2').style.display='none';document.getElementById('fade').style.display='none'"><a href=""><img class="reload_sb2" alt=" " src="images/relaod_sb2_new.png" /></a></a>
+
+            <!-- <a class="vertical_space" href="soroborno.html"><img class="next_sb2" alt=" " src="images/nexrt_new.png" /></a> -->
+        </div>
+    </div>
+
+	  <div id="fade" class="black_overlay"></div>
+
+</body>
+<script>
+	$(init);
+
+function init() {
+  $('.card').draggable({
+  
+     
+      stack: '#test ,#test2,.card',
+      cursor: 'move',
+      revert: true
+  });
+  
+  
+   $('.s').droppable({
+  
+     
+      accept: '.card',
+      hoverClass: 'hovered',
+      drop: handleCardDrop
+  });
+}
+ 
+var count=0;
+  function handleCardDrop( event, ui ) {
+
+  var slotNumber = $(this).attr("data");
+  var cardNumber =  ui.draggable.attr("data"); 
+    
+if(slotNumber==cardNumber){
+	count++;
+	ui.draggable.addClass( 'correct' );
+    ui.draggable.draggable( 'disable' );
+    $(this).droppable( 'disable' );
+    ui.draggable.position( { of: $(this), my: 'left top', at: 'left top' } );
+    ui.draggable.draggable( 'option', 'revert', false );
+	if(count==6)
+{
+document.getElementById('light2').style.display='block';
+document.getElementById('fade').style.display='block'
+}
+}
+else{
+document.getElementById('light').style.display='block';
+document.getElementById('fade').style.display='block'
+
+}
+
+
+
+}
+
+<!--<a style="color:#009933;" href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">আবার চেষ্টা করি</a>-->  
+
+
+ 
+</script> 
+  
+  
+</html>

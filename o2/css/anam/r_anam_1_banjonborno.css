@@ -1,0 +1,164 @@
+@media(min-width: 1200px){
+	section.soroborno div.img-wrapper img{
+		width:75px;
+		height:75px;
+		margin:0px 10px;
+	}
+}
+@media (max-width: 1199px) {
+	.ss {
+	    float: left;
+	    margin: 0px 8px;
+	    width:75px;
+	}
+}
+
+
+@media(max-width: 991px){
+	section.soroborno div.img-wrapper img{
+		width:55px;
+		height:55px;
+		margin:0px 7px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	header .text{
+		padding-left:0px;
+	}
+	header a{
+		font-size: 14px;
+	}
+	section.button_bar div.container-fluid{
+	    text-align: center;
+	    padding-top:15px;
+	    padding-right:0px;
+	}
+
+	section.button_bar div.container-fluid a{
+	    width: 125px;
+	    height: 45px;
+	    line-height: 45px;	    
+	}
+	section.soroborno div.img-wrapper img{
+		width:44px;
+		height:44px;
+		margin:0px 5px;
+	}
+	.sb3_anam{
+	    padding-top:10px;
+	}
+
+}
+
+@media (max-width: 600px) {
+	header .text{
+		padding-left:0px;
+	}
+	header a{
+		font-size: 14px;
+	}
+	section.button_bar div.container-fluid{
+	    text-align: center;
+	    padding-top:5px;
+	    padding-right:0px;
+	}
+
+	section.button_bar div.container-fluid a{
+	    width: 100px;
+	    height: 35px;
+	    line-height: 35px;
+	    font-size: 20px	    
+	}
+	section.soroborno div.img-wrapper img{
+		width:35px;
+		height:35px;
+		margin:0px 2px;
+	}
+	.sb3_anam{
+	    padding-top:10px;
+	}
+
+}
+
+@media (max-width: 400px) {
+	section.button_bar div.container-fluid a{
+	    width: 80px;
+	    height: 35px;
+	    line-height: 35px;
+	    font-size: 20px;
+	}
+	section.soroborno div.img-wrapper img{
+		width:28px;
+		height:28px;
+		margin:0px 0px 0px 2px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************** <=1199px ***********************************/
+@media (max-width: 1199px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=991px ***********************************/
+@media (max-width: 991px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=800px ***********************************/
+@media (max-width: 800px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=767px ***********************************/
+@media (max-width: 767px) {
+
+	section.sb3_anam .container-fluid{
+		padding:0 !important;
+		margin:0 !important;
+	}
+	section.sb3_anam .col-xs-12{
+		padding:0 !important;
+		margin:0 !important;
+	}
+	
+}
+/**********************************************************************/
+
+/*************************** <=480px ***********************************/
+@media (max-width: 480px) {
+	
+}
+/**********************************************************************/
+
+/*************************** <=320px ***********************************/
+@media (max-width: 320px) {
+	
+}
+/**********************************************************************/
+
+
+

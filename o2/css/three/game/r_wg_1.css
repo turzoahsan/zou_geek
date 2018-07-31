@@ -1,0 +1,534 @@
+@media (min-width: 1200px) {
+	.div_sbd > img{
+        width: 92px;   
+    }
+    #test2{
+    	margin-top:-10px;
+    }
+    #test1{
+    	border-right:solid 3px #3A72B8;
+    }
+    div.div_sbd span{
+	    font-family: solaiman;
+	    font-size:36px;
+	}
+	.marin{
+        margin: 12px 0;   
+    }
+}
+
+/*************************** <=1199px ***********************************/
+@media (max-width: 1199px) {
+	section#instruction_bar{
+	    padding:6px 0px 10px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 26px;
+	}
+	div.div_sbd span{
+	    font-family: solaiman;
+	    font-size:24px;
+	}
+	
+    .marin{
+        margin: 6px 0;   
+    }
+    #test2{
+    	margin-top:0px;
+    }
+	.sbd{
+		height:auto;
+		width:60px;
+	}
+	.div_sbd > img {
+	    width: 60px;
+	}
+}
+/**********************************************************************/
+
+
+/*************************** <=991px ***********************************/
+@media (max-width: 991px) {
+	span img{
+		width:40px;
+	}
+	div.dyn_cont img{
+		width:40px;
+	}
+	div.rand_pic img{
+		width:80px;
+	}
+	section#game_cont div.my_drag_cont {
+	    width: 50px;
+	    height: 50px;
+	    margin: 0px auto;
+	}
+	div.rand_text img{
+		width:50px;
+	}
+	section#game_cont {
+	    padding-top: 0px;
+	}
+
+
+
+
+
+
+	section#instruction_bar{
+	    padding:6px 0px 10px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 26px;
+	}
+	div.div_sbd span{
+	    font-family: solaiman;
+	    font-size:24px;
+	}
+	
+    .marin{
+        margin: 6px 0;   
+    }
+    #test2{
+    	margin-top:0px;
+    }
+	.sbd{
+		height:auto;
+		width:60px;
+	}
+	.div_sbd > img {
+	    width: 60px;
+	}
+}
+
+/*************************** <=991px ***********************************/
+@media (max-width: 767px) {
+	span img{
+		width:30px;
+	}
+	div.dyn_cont img{
+		width:30px;
+	}
+	div.rand_pic img{
+		width:70px;
+	}
+	section#game_cont div.my_drag_cont {
+	    width: 30px;
+	    height: 50px;
+	    margin: 0px auto;
+	}
+	div.rand_text img{
+		width:50px;
+	}
+	section#game_cont {
+	    padding-top: 0px;
+	}
+
+	section#game_cont div.first_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 20px;
+	}
+	section#game_cont div.second_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 20px;
+	}
+	section#game_cont div.third_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 20px;
+	}
+	section#game_cont div.fourth_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 20px;
+	}
+
+
+
+	/******************************************* responsive code **************************************************/
+	div#light,
+	div#light2{
+	    height:280px;
+	}
+	.ans_img {
+	    width: 70px;
+	    height: auto;
+	    display: block;
+	    margin: 0px auto;
+	}
+	#divider {
+	    margin: 10px 0px;
+	    font-family: solaiman;
+	    font-size: 20px;
+	    color: #fff;
+	}
+	.reload_sb1 {
+	    height: auto;
+	    left: 0;
+	    margin: auto;
+	    position: absolute;
+	    right: 0;
+	    width: 31px;
+	}
+	/*************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+	section#instruction_bar{
+	    padding:6px 0px 10px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 26px;
+	}
+	div.div_sbd span{
+	    font-family: solaiman;
+	    font-size:16px;
+	}
+	
+    .marin{
+        margin: 6px 0;   
+    }
+    #test2{
+    	margin-top:0px;
+    }
+	.sbd{
+		height:auto;
+		width:50px;
+	}
+	.div_sbd > img {
+	    width: 50px;
+	}
+}
+
+
+/*************************** <=991px ***********************************/
+@media (max-width: 600px) {
+	span img{
+		width:20px;
+	}
+	div.dyn_cont img{
+		width:20px;
+	}
+	div.rand_pic img{
+		width:70px;
+	}
+	section#game_cont div.my_drag_cont {
+	    width: 20px;
+	    height: 30px;
+	    margin: 0px auto;
+	}
+	div.rand_text img{
+		width:40px;
+	}
+	section#game_cont {
+	    padding-top: 0px;
+	}
+
+	section#game_cont div.first_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 10px;
+	}
+	section#game_cont div.second_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 10px;
+	}
+	section#game_cont div.third_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 10px;
+	}
+	section#game_cont div.fourth_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	section#instruction_bar{
+	    padding:6px 0px 10px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 20px;
+	}
+	section#instruction_bar h3{
+		font-size: 16px;
+	}
+	div.div_sbd span{
+	    font-family: solaiman;
+	    font-size:16px;
+	}
+	
+    .marin{
+        margin: 6px 0;   
+    }
+    #test2{
+    	margin-top:0px;
+    }
+	.sbd{
+		height:auto;
+		width:40px;
+	}
+	.div_sbd > img {
+	    width: 40px;
+	}
+}
+
+
+/*************************** <=991px ***********************************/
+@media (max-width: 500px) {
+	div.cont_header h3{
+		text-align: center;
+	}
+	section#instruction_bar{
+	    padding:6px 0px 10px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 26px;
+	}
+	div.div_sbd span{
+	    font-family: solaiman;
+	    font-size:16px;
+	}
+	
+    .marin{
+        margin: 6px 0;   
+    }
+    #test2{
+    	margin-top:-5px;
+    }
+	.sbd{
+		height:auto;
+		width:30px;
+	}
+	.div_sbd > img {
+	    width: 30px;
+	}
+	div.antnym{
+		margin-top:-10px;
+	}
+	div.slot{
+		margin-top:-10px;
+	}
+}
+/*************************** <=991px ***********************************/
+@media (max-width: 480px) {
+	span img{
+		width:25px;
+	}
+	div.dyn_cont img{
+		width:25px;
+	}
+	div.rand_pic img{
+		width:60px;
+	}
+	section#game_cont div.my_drag_cont {
+	    width: 25px;
+	    height: 30px;
+	    margin: 0px auto;
+	}
+	div.rand_text img{
+		width:35px;
+	}
+	section#game_cont {
+	    padding-top: 0px;
+	}
+
+	section#game_cont div.first_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 7px;
+	}
+	section#game_cont div.second_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 7px;
+	}
+	section#game_cont div.third_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 7px;
+	}
+	section#game_cont div.fourth_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 7px;
+	}
+	.btm_d_mb {
+		display: inline-block;
+	}
+
+
+
+
+
+
+	section#instruction_bar{
+	    padding:6px 0px 10px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 20px;
+	}
+	section#instruction_bar h3{
+		font-size: 16px;
+	}
+	div.div_sbd span{
+	    font-family: solaiman;
+	    font-size:16px;
+	}
+	
+    .marin{
+        margin: 6px 0;   
+    }
+    #test2{
+    	margin-top:-10px;
+    }
+	.sbd{
+		height:auto;
+		width:30px;
+	}
+	.div_sbd > img {
+	    width: 30px;
+	}
+	div.antnym{
+		margin-top:-10px;
+	}
+	div.slot{
+		margin-top:-10px;
+	}
+}
+
+/*************************** <=991px ***********************************/
+@media (max-width: 320px) {
+	span img{
+		width:14px;
+	}
+	div.dyn_cont img{
+		width:14px;
+	}
+	div.rand_pic img{
+		width:50px;
+	}
+	section#game_cont div.my_drag_cont {
+	    width: 14px;
+	    height: 30px;
+	    margin: 0px auto;
+	}
+	div.rand_text img{
+		width:35px;
+	}
+	section#game_cont {
+	    padding-top: 0px;
+	}
+	section#game_cont div.first_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 4px;
+	}
+	section#game_cont div.second_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 4px;
+	}
+	section#game_cont div.third_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 4px;
+	}
+	section#game_cont div.fourth_row div.g_elem {
+	    display: inline-block;
+	    margin-right: 4px;
+	}
+	.btm_d_mb {
+		display: inline-block;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	section#instruction_bar{
+	    padding:6px 0px 10px;
+	}
+	section#instruction_bar h1, h3{
+		margin:0px;
+		padding:0px;
+	}
+	section#instruction_bar h1{
+		font-size: 18px;
+	}
+	section#instruction_bar h3{
+		/*font-size: 8px;*/
+	}
+	div.div_sbd span{
+	    font-family: solaiman;
+	    font-size:16px;
+	}
+	
+    .marin{
+        margin: 6px 0;   
+    }
+    #test2{
+    	margin-top:-5px;
+    }
+	.sbd{
+		height:auto;
+		width:25px;
+	}
+	.div_sbd > img {
+	    width: 25px;
+	}
+	div.antnym{
+		margin-top:-10px;
+	}
+	div.slot{
+		margin-top:-10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

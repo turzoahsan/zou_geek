@@ -1,0 +1,29 @@
+p.cont_header{
+	font-size: 26px;
+}
+p.info_text,
+ul li{
+	font-size: 18px;
+}
+p.ul_header{
+	font-size: 18px;
+}
+ul.element li{
+	display: inline-block;
+	/*float:left;*/
+	font-family: solaiman;
+}
+
+ul.cont_element{
+	text-align: left;
+	font-family: solaiman;
+}
+
+@media (max-width: 480px) {
+	p.info{
+		margin-bottom:0%;
+	}
+	ul.cont_element{
+		margin-bottom: 30%
+	}
+}

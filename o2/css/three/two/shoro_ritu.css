@@ -1,0 +1,30 @@
+section#shoro_ritu{
+
+}
+
+
+section#shoro_ritu div.container-fluid{
+	text-align: center;
+}
+
+
+/*********************************************/
+@media (min-width: 1200px) {
+	section#shoro_ritu{
+		padding-top:80px;
+	}
+
+}
+/*********************************************/
+
+@media (max-width: 767px) {
+	header div.text a{
+		font-size: 12px
+	}
+	section#shoro_ritu{
+		padding-top:20px;
+	}
+	section#shoro_ritu a img{
+		width:50%;
+	}
+}

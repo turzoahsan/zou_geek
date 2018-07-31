@@ -1,0 +1,45 @@
+section#biram_cont{
+	padding-top:10px;
+}
+section#biram_cont div#biram_cont_body article{
+	font-family: solaiman;
+	font-size: 26px;
+	margin:50px 0px;
+	padding:0px 50px;
+	line-height: 3;
+}
+section#biram_cont div#biram_cont_footer img{
+	cursor:pointer;
+}
+/**************************/
+section#biram_cont div.dari{
+	display: inline-block;
+	position: relative;
+	top:-24px;
+	margin:0px 20px;
+}
+section#biram_cont div.dari span{
+	position: absolute;
+}
+/********************/
+section#biram_cont div.comma{
+	display: inline-block;
+	position: relative;
+	top:-24px;
+	margin:0px 40px 0px 20px;
+}
+section#biram_cont div.comma span{
+	position: absolute;
+}
+
+/********************************/
+section#biram_cont span.q_sign{
+	margin-left:40px;
+	
+}
+#divider{
+	font-family: solaiman;
+	font-size:30px;
+	color:#fff;
+	/*margin:20px 0px;*/
+}

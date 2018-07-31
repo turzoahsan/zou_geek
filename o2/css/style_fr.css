@@ -1,0 +1,142 @@
+html,body{margin: 0;
+height:100%;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;}
+.int_wrp{margin:0 auto;max-width:1200px;}
+
+/*.container_story{background:#1d2327;}
+.container_story_mid{width:1280px;margin:0 auto;height:720px;background:url(../images/background_art.png);padding-top:16px;}*/
+.slider{margin:0 auto;width:780px;background:#999933;}
+.btn{margin:0px;padding:0px;float:right;margin-right:30px;float:right;}
+.pop{color:#000000;font-size:25px;}
+
+.carousel-caption{ 
+    position:static;
+    text-align: center;}
+.key{height:300px;}
+/*#prev{margin-top:35vh;width:auto;margin-left:-65px;}
+#next{margin-top:35vh;width:auto;margin-right:-65px;}*/
+#prev{top:4%;width:auto;left:20px; z-index:1000;}
+#next{top:4%;width:auto;right:20px;z-index:1000;}
+
+.tplay {
+    left: 43% !important;
+    opacity: 0.10 !important;
+    position: absolute !important;
+    top: 35vh !important;
+    margin-top: 0 !important;
+    cursor: pointer;
+    height: 150px !important;
+    width: 150px !important;
+    z-index: 1213;
+}
+.tplay:hover {
+    opacity: 1 !important;
+}
+
+.top{background:#FFFFFF;}
+.first{margin-top:10px;margin-left:5px;}
+.back{float:left;}
+.logo{margin-top:0 px;!important;margin-left:5px;}
+.menu_icon{float:right;margin-right:10px;margin-top:20px;}
+.container{width:100%;padding:0px;}
+html{background:#000000;}
+.theme{padding-top:30px;height:100%;padding-bottom:10px;}
+.outer{}
+.row{margin-right:0px;margin-left:0px;!important;}
+.carousel-indicators{border:1px ;border-radius:20px;background-color:#FFFFFF;padding:8px;}
+.carousel-indicators li{text-indent:0px;background:url(../images/ui_scroller_item.png) center center no-repeat;height:25px;width:25px;border-radius:15px;!important;border:1px;color:#FFFFFF;}
+
+.carousel {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.carousel-indicators .active {
+  text-indent:0px;background:url(../images/ui_scroller_item_active.png) center center no-repeat;height:25px;width:25px;border-radius:15px;
+}
+.playof{
+background:#70c15d;color:white;padding:10px;border-radius:8px;cursor:pointer;font-size: 30px;
+}
+.playof:hover{
+    background:#7dd668;
+}
+.zhi{
+    z-index: 1214;
+}
+#hob{
+    z-index: 1214   
+}
+.readmy{
+background:#5d66c1;color:white;padding:10px;border-radius:8px;cursor:pointer;font-size: 20px;
+}
+.readmy:hover{
+    background:#6670d1;
+}
+/*.carousel-control{opacity:1;}*/
+.carousel-control.left{background-image:none;z-index:0;}
+.carousel-control.right{background-image:none;z-index:0;}
+.buttons{padding-bottom:20px;}
+.carousel-inner{overflow:visible;z-index:1;}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+    margin: 15px auto auto;}
+.tplay{width:80px;height:auto;margin-right:10px;}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+#prev{top:4%;width:auto;}
+#next{top:4%;width:auto;}
+.lft_img{width:60px; height:auto;float:right;}
+.rht_img{width:60px; height:auto;}
+.tplay{width:70px;height:auto;margin-right:10px;}
+#prev{margin-left:80px;}
+#next{margin-right:80px;}
+}
+
+@media (max-width: 767px) {
+
+#prev{margin-top:8px;width:auto;}
+#next{margin-top:8px;width:auto;}
+.lft_img{width:60px; height:auto;}
+.rht_img{width:60px; height:auto;}
+.pop{color:#000000;font-size:15px;}
+.tplay{width:30px;height:auto;margin-right:10px;}
+#prev{margin-left:48px;}
+#next{margin-right:48px;}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.tplay{width:30px;height:auto;margin-right:10px;}
+#prev{margin-top:20px;width:auto;}
+#next{margin-top:20px;width:auto;}
+.lft_img{width:35px; height:auto;}
+.rht_img{width:35px; height:auto;}
+.pop{color:#000000;font-size:15px;}
+.tplay{width:30px;height:auto;margin-right:10px;}
+#prev{margin-left:30px;}
+#next{margin-right:30px;}
+}
+/* Smartphones (portrait) ----------- */
+@media  (max-width : 321px) {
+.tplay{width:20px;height:auto;margin-right:10px;}
+#prev{margin-top:35px;width:auto;}
+#next{margin-top:35px;width:auto;}
+.lft_img{width:30px; height:auto;}
+.rht_img{width:30px; height:auto;}
+.pop{color:#000000;font-size:13px;}
+.tplay{width:20px;height:auto;margin-right:10px;}
+#prev{margin-left:17px;}
+#next{margin-right:25px;}
+}
+
+
+
+
+
+

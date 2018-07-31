@@ -1,0 +1,63 @@
+ .black_overlay{
+    display:none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+.red_content {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    /*height: 60%;*/
+    /*margin:0px auto;*/
+    padding: 16px;
+    /*border: 16px solid orange;*/
+    background-color: #d12127;
+    z-index:1002;
+    overflow: auto;
+    max-width:670px;
+    padding:35px 0px;
+}
+.white_content {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    /*height: 60%;*/
+    /*margin:0px auto;*/
+    padding: 16px;
+    /*border: 16px solid orange;*/
+    background-color: #008B43;
+    z-index:1002;
+    overflow: auto;
+    max-width:670px;
+    padding:35px 0px;
+}
+div#divider1{
+    font-family: solaiman;
+    color:#fff;
+    font-size:36px;
+}
+div#divider2{
+    font-family: solaiman;
+    color:#fff;
+    font-size:36px;
+}
+@media (max-width: 767px) {
+   div#divider1{
+        font-size:18px;
+    }
+    div#divider2{
+        font-size:18px;
+    } 
+}

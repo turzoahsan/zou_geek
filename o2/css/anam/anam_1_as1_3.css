@@ -1,0 +1,199 @@
+/********************************
+all edited by anam
+*********************************/
+
+
+header{
+	height: 44px;
+	background:#ed2227;
+}
+header .back{
+	background:#669d41;
+	width:49px;
+	height: 44px;
+	display: inline-block;	
+}
+header  img{
+	/*margin-top:-2px;*/
+	height: 44px;
+}
+
+header .right, .text, .home, .guide{
+	display: inline-block;
+}
+header .right{
+	float:right;
+}
+header .home, .guide{
+	background:#669d41;
+	height: 44px;
+	width: 49px;
+	display: inline-block;
+}
+header .home{
+	margin-right:-3px;
+}
+header .text{
+	padding-left:15px;
+	color:#fff;
+	font-size: 22px;
+}
+header .text a{
+	color:#fff;
+}
+
+
+/************************************cl1_anam_2********************************/
+section.button_bar div.container-fluid{
+    text-align: right;
+    padding-top:20px;
+    padding-right:95px;
+}
+section.button_bar div.container-fluid a{
+    width: 138px;
+    height: 56px;
+    margin:0px 8px;
+    color:#fff;
+    border-radius: 5px;
+    line-height: 56px;
+    display: inline-block;
+    text-align: center;
+    background-color:#3A72B8;
+    font-size: 23px;
+}
+section.button_bar div.container-fluid a.button_selected{
+    background-color:#AA1C17;
+}
+
+
+
+div.container-fluid div.button_links{
+	padding-right:70px;
+}
+.edit_container{
+	width:1170px;
+	margin:0px auto;
+	text-align: right;
+}
+
+.edit_btn{
+	display: inline-block;
+	width: 157.625px;
+	height: 55px;
+	text-align: center;
+	margin:16px 15px;
+}
+/*#######################################################################*/
+
+
+
+
+
+
+section#m_content{
+    
+
+}
+section#m_content div.container-fluid{
+    
+}
+
+section#m_content div#content_main{
+   margin-top: 25%;
+}
+section#m_content div#content_c{
+   display: inline-block;
+   border-radius: 50%;
+}
+section#m_content div#content_c span{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    background:#039;
+    color:white;
+    text-align: center;
+    display: inline-block;
+    line-height: 80px;
+    font-size:25px;
+    cursor: pointer;
+
+}
+
+section#m_content div.content{
+    display: inline-block;
+    border:solid 1px red;
+    width:128px;
+    height: 128px;
+    overflow: hidden;
+    background:#eee;
+    border-radius:50%;
+    cursor: pointer;
+    position: absolute;
+    
+}
+
+
+section#m_content div#content_1{
+    position: absolute;
+    display: inline-block;
+
+}
+section#m_content div#content_2{
+    
+}
+section#m_content div#content_3{
+    position: absolute;
+    display: inline-block;
+    
+}
+section#m_content div#content_4{
+    
+}
+
+
+
+
+
+section#m_content div#content_1 img{
+    width: 100%;
+   
+}
+section#m_content div#content_3 img{
+    width: 100%;
+    
+}
+
+
+
+/*section#m_content div#text_top{
+    border:solid 1px black;
+    display: inline-block;
+    position: relative;
+    
+}
+section#m_content div#text_bottom{
+    border:solid 1px black;
+    display: inline-block;
+   
+}
+*/
+
+section#m_content div#text_top span{
+    color:red;
+    font-family: solaiman;
+
+}
+section#m_content div#text_bottom span{
+    color:red;
+    font-family: solaiman;
+
+}
+
+
+
+
+
+
+
+
+

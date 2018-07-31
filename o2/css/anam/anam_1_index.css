@@ -1,0 +1,31 @@
+section#class_bar{
+    padding-top:150px;
+}
+
+section#class_bar div.main_link{
+    display: inline-block;
+}
+
+section#class_bar a{
+    font-size: 35px;
+    display: inline-block;
+    width:267px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius:10px;
+    margin:12px;
+    color:#fff;
+    -webkit-box-shadow: 3px 27px 34px -9px rgba(0,0,0,0.47);
+    -moz-box-shadow: 3px 27px 34px -9px rgba(0,0,0,0.47);
+    box-shadow: 3px 27px 34px -9px rgba(0,0,0,0.47);
+}
+
+
+section#class_bar div.main_one a:hover{
+    /*color:black;*/
+    background-color: #2f65a9;
+}
+section#class_bar div.main_one:hover{
+
+}
